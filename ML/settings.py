@@ -77,27 +77,27 @@ WSGI_APPLICATION = 'ML.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 #
-# DATABASES = {
-#     'default': {
-#         'ENGINE':'django.db.backends.postgresql_psycopg2',
-#         'NAME':'mldb',
-#         'HOST':'localhost',
-#         'USER':'naga1',
-#         'PASSWORD':'Jeevan$@123',
-#         'PORT':'5432',
-#     }
-# }
 DATABASES = {
-        'default': {
-            'ENGINE': 'djongo',
-            'NAME': 'ML',
-            # 'ENFORCE_SCHEMA': False,
-            'CLIENT': {
-
-                'host': 'mongodb+srv://naga:naga@naga.lztjx.mongodb.net/ML?retryWrites=true&w=majority'
-            }
-        }
+    'default': {
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME':'mldb',
+        'HOST':'localhost',
+        'USER':'naga1',
+        'PASSWORD':'Jeevan$@123',
+        'PORT':'5432',
+    }
 }
+# DATABASES = {
+#         'default': {
+#             'ENGINE': 'djongo',
+#             'NAME': 'ML',
+#             # 'ENFORCE_SCHEMA': False,
+#             'CLIENT': {
+
+#                 'host': 'mongodb+srv://naga:naga@naga.lztjx.mongodb.net/ML?retryWrites=true&w=majority'
+#             }
+#         }
+# }
 # DATABASES = {
 #     'default': {
 #         'ENGINE':'django.db.backends.postgresql',
