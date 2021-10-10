@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$t=i+4itm-i28w4wlz+ros9d)l3$wzglar81+(!%+513tpy5*l
 DEBUG = True
 
 # ALLOWED_HOSTS = ["ml-house-prediction-app.herokuapp.com","127.0.0.1",'52.184.22.223']
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['naga-ml-house-price-prediction.azurewebsites.net']
 
 
 # Application definition
