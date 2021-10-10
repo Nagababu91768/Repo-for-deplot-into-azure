@@ -88,15 +88,26 @@ WSGI_APPLICATION = 'ML.wsgi.application'
 #     }
 # }
 DATABASES = {
-    'default': {
-        'ENGINE':'django.db.backends.postgresql',
-        'NAME':'d14ottijkirqer',
-        'HOST':'ec2-54-204-148-110.compute-1.amazonaws.com',
-        'USER':'nbpufvophvhreb',
-        'PASSWORD':'fc14c40b71cdf3b09da79192478a2e99d0788a6c1520f471de2604f376885036',
-        'PORT':'5432',
-    }
+        'default': {
+            'ENGINE': 'djongo',
+            'NAME': 'ML',
+            # 'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+
+                'host': 'mongodb+srv://naga:naga@naga.lztjx.mongodb.net/ML?retryWrites=true&w=majority'
+            }
+        }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE':'django.db.backends.postgresql',
+#         'NAME':'d14ottijkirqer',
+#         'HOST':'ec2-54-204-148-110.compute-1.amazonaws.com',
+#         'USER':'nbpufvophvhreb',
+#         'PASSWORD':'fc14c40b71cdf3b09da79192478a2e99d0788a6c1520f471de2604f376885036',
+#         'PORT':'5432',
+#     }
+# }
 #
 # DATABASES = {
 #     'default': {
