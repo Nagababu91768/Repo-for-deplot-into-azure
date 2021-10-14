@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'naga-ml-house-price-prediction'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07A4EE3B1D004DFF87172A4DCA404A5E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C73173117D7D4AB48AB34FDBEBF68852 }}
