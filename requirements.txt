@@ -9,9 +9,9 @@ click==8.0.1
 colorama==0.4.4
 crispy==0.6.3
 cycler==0.10.0
-Django==3.2.5
-django-crispy-forms==1.12.0
-django-storages==1.11.1
+Django
+django-crispy-forms
+django-storages
 django-widget-tweaks==1.4.8
 dnspython==1.16.0
 fabio==0.12.0
